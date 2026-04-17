@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunkara Srinivas | Portfolio</title>
+    <!-- Google Fonts: Outfit for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Blurred Background Elements -->
+    <div class="bg-gradient bg-gradient-1"></div>
+    <div class="bg-gradient bg-gradient-2"></div>
+    <div class="bg-gradient bg-gradient-3"></div>
+
+    <nav class="navbar glass-effect fade-in">
+        <div class="nav-content">
+            <div class="logo" id="nav-logo">Srinivas.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#coding">Coding Profiles</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section hero-section">
+            <div class="hero-content stagger-container">
+                <p class="greeting stagger-item">Hello, I am</p>
+                <h1 id="hero-name" class="glow-text stagger-item">Name</h1>
+                <h2 id="hero-title" class="typewriter-container stagger-item">
+                    <span class="typewriter-text"></span><span class="cursor"></span>
+                </h2>
+                <p id="hero-bio" class="bio stagger-item"></p>
+                <div class="hero-buttons stagger-item">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div id="hero-socials" class="hero-socials stagger-item">
+                    <!-- Dynamic hero socials injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header fade-in">
+                <h2>My Skills & Growth Journey</h2>
+                <p>Focused on continuous improvement and real-world problem solving</p>
+            </div>
+            
+            <div id="skills-container" class="skills-category-wrapper">
+                <!-- Dynamically injected categorized skills -->
+            </div>
+
+            <div class="growth-note fade-in">
+                <p>🌱 <em>I continuously improve my skills through projects, coding platforms, and hands-on learning.</em></p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-header fade-in">
+                <h2>Experience</h2>
+                <p>My professional journey</p>
+            </div>
+            <div id="experience-container" class="timeline-container"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-header fade-in">
+                <h2>Featured Projects</h2>
+                <p>Building impactful solutions</p>
+            </div>
+            <div id="projects-container" class="projects-grid"></div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-header fade-in">
+                <h2>Education</h2>
+                <p>My academic background</p>
+            </div>
+            <div id="education-container" class="timeline-container"></div>
+        </section>
+
+        <!-- Coding Profiles Section -->
+        <section id="coding" class="section">
+            <div class="section-header fade-in">
+                <h2>Coding Profiles</h2>
+                <p>Competitive Programming & Problem Solving</p>
+            </div>
+            <div id="coding-container" class="coding-grid"></div>
+        </section>
+
+        <!-- Badges Section -->
+        <section id="badges" class="section">
+            <div class="section-header fade-in">
+                <h2>Badges</h2>
+                <p>Digital Credentials</p>
+            </div>
+            <div id="badges-container" class="badges-grid"></div>
+        </section>
+    </main>
+
+    <footer id="contact" class="glass-effect">
+        <div class="footer-content fade-in">
+            <h2>Let's build something impactful together</h2>
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+            <div id="social-links" class="social-links">
+                <!-- Social links generated dynamically -->
+            </div>
+            <p class="copyright">© <span id="current-year"></span> Sunkara Srinivas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Load data first, then app logic -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
