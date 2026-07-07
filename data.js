@@ -7,7 +7,7 @@ const portfolioData = {
         name: "Srinivas Sunkara",
         title: "Computer Science Undergraduate | AI & ML Enthusiast",
         bio: "Motivated Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning with strong academic performance and hands-on project experience. Seeking a challenging role to utilize my programming and analytical skills and contribute to innovative technical projects.",
-        email: "23p31a0558@acet.ac.in",
+        email: "srinivas.sunkara.2006@gmail.com",
         phone: "+91 9618973589",
         github: "https://github.com/srinivas119",
         linkedin: "https://www.linkedin.com/in/srinivas-sunkara-9b361b2a4/"
@@ -65,7 +65,7 @@ const portfolioData = {
         {
             role: "Campus Ambassador",
             company: "Unstop",
-            duration: "Oct 2025 - Present",
+            duration: "Oct 2025 - Feb 2026",
             description: "Actively contributing to the growth of Unstop as a Campus Ambassador, organizing events, and engaging with the student community."
         }
     ],
@@ -75,7 +75,7 @@ const portfolioData = {
             degree: "B.Tech – Computer Science and Engineering",
             institution: "Aditya College of Engineering and Technology",
             year: "2023 - 2027",
-            description: "CGPA: 8.3. Focusing on Artificial Intelligence, Machine Learning, and software engineering principles."
+            description: "CGPA: 8.41. Focusing on Artificial Intelligence, Machine Learning, and software engineering principles."
         },
         {
             degree: "Intermediate",
