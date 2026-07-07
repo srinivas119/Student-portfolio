@@ -10,7 +10,7 @@ const portfolioData = {
         email: "srinivas.sunkara.2006@gmail.com",
         phone: "+91 9618973589",
         github: "https://github.com/srinivas119",
-        linkedin: "https://www.linkedin.com/in/srinivas-sunkara-9b361b2a4/"
+        linkedin: "https://www.linkedin.com/in/srinivas-sunkara-409760310?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     
     // Coding Profiles
