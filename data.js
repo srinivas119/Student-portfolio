@@ -17,7 +17,7 @@ const portfolioData = {
     codingProfiles: [
         { 
             platform: "LeetCode", 
-            link: "https://leetcode.com/u/srinivas119/",
+            link: "https://leetcode.com/u/adapasatwik/",
             stats: { "Java": 72, "MyYSQL": 3, "OracleSQL": 6 }
         },
         { 
